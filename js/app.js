@@ -10,4 +10,8 @@ function displayArray() {
     ChildDiv.innerHTML = myArray[k];
     ResultsDiv.appendChild(ChildDiv);
   }
+}
+
+function addToArray() {
+  console.log("in AddToArray!");
 };
